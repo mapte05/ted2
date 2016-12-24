@@ -1,0 +1,22 @@
+{
+  "name": "ted2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapte05/ted2.git"
+  },
+  "author": "Maneesh Apte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapte05/ted2/issues"
+  },
+  "homepage": "https://github.com/mapte05/ted2#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
