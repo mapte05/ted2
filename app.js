@@ -20,8 +20,12 @@ app.get('/', function(req, res) {
 });
 
 
-http.createServer(app).listen(1337, function () {
-  console.log("Express server listening on port 1337");
+http.createServer(app).listen(process.env.PORT || 3000,, function () {
+	var port = 1337;
+	if (process.env.PORT) {
+		port = process.env.PORT;
+	}
+	console.log("Express server listening on port " + post.toString());
 });
 
 
